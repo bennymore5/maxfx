@@ -3,11 +3,9 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="UTF-8">
-    <meta name="description" content="{{$company_features? $company_features->companyName :"No company name set"}} is an investment company that aggregates funds for investment in bitcoin and forex trading.                                                                                                                                                                                                                                                                                                                                                                                                                ">
-    <meta name="keywords" content="{{$company_features? $company_features->companyName :"No company name set"}} bitcoin trading, forex, investment, trading                                                                                                                                                                                                                                                                                                                                                                                                                                                                ">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <base href="{{route("index")}}">
-    <title>Login</title>
+    <title>Authentication</title>
     <!-- Bootstrap CSS -->
     
     <link rel="shortcut icon" href="uploads/bitpaddyltd_icon2.jpg">
@@ -45,7 +43,7 @@
                         <h1 class="dt-login__title text-capitalize">Login</h1>
                         <!-- /login title -->
 
-                        <p class="f-16 text-capitalize">Sign in and explore {{$company_features? $company_features->companyName :"No company name set"}}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            .</p>
+                        <p class="f-16 text-capitalize">Sign in and explore                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          .</p>
                     </div>
 
 

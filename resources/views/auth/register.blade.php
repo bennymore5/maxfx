@@ -141,7 +141,7 @@
                                             <i name="box-check-o" size="xl" class="text-primary icon icon-box-check-o icon-xl icon-fw"></i>
                                         </span>
                                     </label>
-                                    I agree to {{$company_features? $company_features->companyName :"No company name set"}}'s <a target="_blank" href="{{route("index")}}" class="checkbox-link text-capitalize">Privacy Policy</a> & 
+                                    I agree to <a target="_blank" href="{{route("index")}}" class="checkbox-link text-capitalize">Privacy Policy</a> & 
                                   <a target="_blank" href="{{route("terms")}}" class="checkbox-link text-capitalize">Terms of Service</a>
                                 </checkbox>
                                 <label class="error red" id="terms" for="password"></label>

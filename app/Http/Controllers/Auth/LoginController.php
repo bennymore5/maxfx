@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use App\Models\Sitesetting;
+use App\Models\Feature;
 
 class LoginController extends Controller
 {
@@ -24,11 +25,17 @@ class LoginController extends Controller
 
     public function showLoginForm()
 {
-    $test = 'test';
+    # code...
+    
+    
     $company_detail = Sitesetting::where('id', 1)->first();
+    $company_features = Feature::where('id', 1)->first();
+    $data=[];
+    $data['company_features'] = $company_features;
+    $data['company_detail'] = $company_detail;
     $data['compd'] = $company_detail;
-    $data['title']="Login Form";
-    return view('auth.login', compact('test'),$data);
+    $data['title']="Home";
+    return view('auth.login', $data);
 }
 
     /**
