@@ -63,11 +63,7 @@
                     <ul style="float: right;background-color: #f4f4f4;padding: 5px;">
                         <li class="dt-nav__item dropdown">
 
-                            <!-- Dropdown Link -->
-                            <a href="#" class="dt-nav__link dropdown-toggle" id="currentLang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img style="width:20px;" class="flag-icon flag-icon-rounded flag-icon-lg mr-1m" src="uploads/gb-eng.png">
-                            <span>EN</span> </a>
-                            <!-- /dropdown link -->
+        
 
                             <!--google translate -->
 
@@ -84,30 +80,7 @@
                             <!--google translate -->
 
 
-                            <!-- Dropdown Option -->
-                            <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(8px, 72px, 0px); top: 0px; left: 0px; will-change: transform;">
-                                                                <button class="dropdown-item sitelangChange" type="button" data-id="switchlang/English">
-                                    <img class="flag-icon flag-icon-rounded flag-icon-lg mr-2" style="width: 20px;" src="uploads/gb-eng.png">
-                                    <span>English</span> 
-                                </button>
-                                                                <button class="dropdown-item sitelangChange" type="button" data-id="switchlang/Russian">
-                                    <img class="flag-icon flag-icon-rounded flag-icon-lg mr-2" style="width: 20px;" src="uploads/russia.png">
-                                    <span>Russian</span> 
-                                </button>
-                                                                <button class="dropdown-item sitelangChange" type="button" data-id="switchlang/Português">
-                                    <img class="flag-icon flag-icon-rounded flag-icon-lg mr-2" style="width: 20px;" src="uploads/portuguese.png">
-                                    <span>Português</span> 
-                                </button>
-                                                                <button class="dropdown-item sitelangChange" type="button" data-id="switchlang/Español">
-                                    <img class="flag-icon flag-icon-rounded flag-icon-lg mr-2" style="width: 20px;" src="uploads/spain.png">
-                                    <span>Español</span> 
-                                </button>
-                                                                <button class="dropdown-item sitelangChange" type="button" data-id="switchlang/German">
-                                    <img class="flag-icon flag-icon-rounded flag-icon-lg mr-2" style="width: 20px;" src="uploads/germany.png">
-                                    <span>German</span> 
-                                </button>
-                                                            </div>
-                            <!-- /dropdown option -->
+                           
 
                         </li>
                     </ul>

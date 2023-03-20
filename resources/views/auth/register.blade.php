@@ -3,11 +3,6 @@
 @section('body')
 
 
-
-
-
-
-
                     <!-- Login Content Inner -->
                     <div class="dt-login__content-inner">
                         <div class="col-md-12">
