@@ -85,28 +85,7 @@
 
 
                             <!-- Dropdown Option -->
-                            <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(8px, 72px, 0px); top: 0px; left: 0px; will-change: transform;">
-                                                                <button class="dropdown-item sitelangChange" type="button" data-id="switchlang/English">
-                                    <img class="flag-icon flag-icon-rounded flag-icon-lg mr-2" style="width: 20px;" src="uploads/gb-eng.png">
-                                    <span>English</span> 
-                                </button>
-                                                                <button class="dropdown-item sitelangChange" type="button" data-id="switchlang/Russian">
-                                    <img class="flag-icon flag-icon-rounded flag-icon-lg mr-2" style="width: 20px;" src="uploads/russia.png">
-                                    <span>Russian</span> 
-                                </button>
-                                                                <button class="dropdown-item sitelangChange" type="button" data-id="switchlang/Português">
-                                    <img class="flag-icon flag-icon-rounded flag-icon-lg mr-2" style="width: 20px;" src="uploads/portuguese.png">
-                                    <span>Português</span> 
-                                </button>
-                                                                <button class="dropdown-item sitelangChange" type="button" data-id="switchlang/Español">
-                                    <img class="flag-icon flag-icon-rounded flag-icon-lg mr-2" style="width: 20px;" src="uploads/spain.png">
-                                    <span>Español</span> 
-                                </button>
-                                                                <button class="dropdown-item sitelangChange" type="button" data-id="switchlang/German">
-                                    <img class="flag-icon flag-icon-rounded flag-icon-lg mr-2" style="width: 20px;" src="uploads/germany.png">
-                                    <span>German</span> 
-                                </button>
-                                                            </div>
+                           
                             <!-- /dropdown option -->
 
                         </li>
