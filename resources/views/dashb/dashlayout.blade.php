@@ -383,7 +383,7 @@
 		  </li>
 		</ul>
     </div>
-	  &copy; 2018 <a href="#">designed by Multi-Purpose Themes</a>. All Rights Reserved.
+	  &copy; 2022 <a href="#">designed by Multi-Purpose Themes</a>. All Rights Reserved.
   </footer>
   <!-- Control Sidebar -->
 

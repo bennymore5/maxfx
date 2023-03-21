@@ -262,7 +262,7 @@ input[type="radio"][class="myRadio"] {
             <span class="fa fa-bars"></span>
           </button>
             
-                        <a href="{{route('dashb_deposits')}}" class="btn btn-inverse-primary mr-1"><i class="fas fa-wallet"></i></a>
+                        <!--<a href="{{route('dashb_deposits')}}" class="btn btn-inverse-primary mr-1"><i class="fas fa-wallet"></i></a>-->
             <a href="{{route('contact')}}" class="btn btn-success mr-1">
                             <i class="fa fa-comments"></i>
                           </a>
@@ -310,13 +310,13 @@ input[type="radio"][class="myRadio"] {
       <div class="container-fluid page-body-wrapper">
 
           
-        <div class="right-sidebar-toggler-wrapper" style="left: 10px; right: auto;">
-          <div class="sidebar-toggler"><a href="{{route('dashb_deposits')}}"><i class="fas fa-upload text-success"></i></a></div>
-          <div class="sidebar-toggler"><a href="{{route('dashb_withdrawals')}}"><i class="fas fa-download text-warning"></i></a></div>
-          <div class="sidebar-toggler"><a href="{{route('dashb_funds_tranfer')}}"><i class="fa fa-exchange text-primary"></i></a></div>
-        </div>
+        <!--<div class="right-sidebar-toggler-wrapper" style="left: 10px; right: auto;">-->
+        <!--  <div class="sidebar-toggler"><a href="{{route('dashb_deposits')}}"><i class="fas fa-upload text-success"></i></a></div>-->
+        <!--  <div class="sidebar-toggler"><a href="{{route('dashb_withdrawals')}}"><i class="fas fa-download text-warning"></i></a></div>-->
+        <!--  <div class="sidebar-toggler"><a href="{{route('dashb_funds_tranfer')}}"><i class="fa fa-exchange text-primary"></i></a></div>-->
+        <!--</div>-->
 
-<nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
           <ul class="nav">
             <li class="nav-item nav-profile">
               <a href="#" class="nav-link">
@@ -589,7 +589,9 @@ input[type="radio"][class="myRadio"] {
 
 
 
-
+     <div class="footer" style="height: 200px; width: 100%;">
+            
+        </div>
 
 
 

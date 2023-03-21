@@ -112,7 +112,7 @@
                             </div>
                             <div class="about-text">
                                 <p>
-                                    {{$company_features? $company_features->companyName:"No company name set"}}  management to maximize your returns on investment. We help you make the most out of your assets. {{$company_features? $company_features->companyName:"No company name set"}}  is a global crypto finance solution for all the crypto enthusiasts who are in search of the trusted, secure and reliable platform.
+                                    {{$company_features? $company_features->companyname:"No company name set"}}  management to maximize your returns on investment. We help you make the most out of your assets. {{$company_features? $company_features->companyname:"No company name set"}}  is a global crypto finance solution for all the crypto enthusiasts who are in search of the trusted, secure and reliable platform.
                                 </p>
                                 <!--<p>-->
                                 <!--   <h1>-</h1> SIMPLE AND AFFORDABLE-->
@@ -146,7 +146,7 @@
                             <div class="about-text">
                                 <div class="section-header text-left">
                                     <p>COMPANY NAME</p>
-                                    <h2>CRYPTOCURRENCY INVESTMENT LIMITED - {{$company_features? $company_features->companyName:"No company name set"}}</h2>
+                                    <h2>CRYPTOCURRENCY INVESTMENT LIMITED - {{$company_features? $company_features->companyname:"No company name set"}}</h2>
                                 </div>
 
                                 <div class="section-header text-left">
@@ -193,14 +193,14 @@
                 <div class="container">
                     <div class="section-header text-left">
                         <p>The benefits of cooperation with</p>
-                        <h2>{{$company_features? $company_features->companyName:"No company name set"}} </h2>
+                        <h2>{{$company_features? $company_features->companyname:"No company name set"}} </h2>
                     </div>
                     <div class="row">
                         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="team-item">
                                 <div class="team-text">
                                     <h2>ASSET MANAGEMENT</h2>
-                                    <p>Get up to 29% in passive mode by investing funds, as well as develop your skills as {{$company_features? $company_features->companyName:"No company name set"}}.top.</p>
+                                    <p>Get up to 29% in passive mode by investing funds, as well as develop your skills as {{$company_features? $company_features->companyname:"No company name set"}}.top.</p>
                                 </div>
                                 
                             </div>
@@ -320,21 +320,16 @@
 
 
 <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-    <div class="tradingview-widget-container__widget"></div>
-    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/cryptocurrencies/prices-all/" rel="noopener" target="_blank"><span class="blue-text">Crypto markets</span></a> by TradingView</div>
-    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
-    {
-    "width": "100%",
-    "height": 490,
-    "defaultColumn": "overview",
-    "screener_type": "crypto_mkt",
-    "displayCurrency": "USD",
-    "colorTheme": "dark",
-    "locale": "en"
-    }
-    </script>
-    </div>
+
+
+<div class="col-lg-12 col-md-12 wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+    <!-- <div class="blog-item"> -->
+        <iframe src="https://widget.coinlib.io/widget?type=full_v2&amp;theme=light&amp;cnt=6&amp;pref_coin_id=1505&amp;graph=yes" width="100%" height="536px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0"></iframe>
+    <!-- </div> -->
+    <br><br><br><br>
+
+                        
+</div>
     <!-- TradingView Widget END -->
 
 

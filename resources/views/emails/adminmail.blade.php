@@ -160,7 +160,7 @@
 														<th class='column-top' width='275' bgcolor='#ffffff' style='font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;'>
 															<table width='100%' border='0' cellspacing='0' cellpadding='0'>
 																<tr>
-																	<td class='fluid-img p20' style='font-size:0pt; line-height:0pt; text-align:left; padding:20px;'><img src='https://milesfx.com/images/emailimages/image4.png' width='275' height='207' border='0' alt='' /></td>
+																	<td class='fluid-img p20' style='font-size:0pt; line-height:0pt; text-align:left; padding:20px;'><img src='https://milesfx.com/images/emailimages/image1.jpg' width='275' height='207' border='0' alt='' /></td>
 																</tr>
 															</table>
 														</th>

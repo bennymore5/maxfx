@@ -4,7 +4,7 @@
 <html lang="en"><meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
         <meta charset="utf-8">
-        <title>{{$title}} | {{$company_features? $company_features->companyName :"No company name set"}}</title>
+        <title>{{$title}} | {{$company_features? $company_features->companyname :"No company name set"}}</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
         <!-- Favicon -->
@@ -159,9 +159,9 @@
                                 <p><i class="fa fa-map-marker-alt"></i>{{$company_features? $company_features->companylocation :"No company address set"}} </p>
                                 <p><i class="fa fa-phone-alt"></i>{{$company_features? $company_features->companyphone :"No company phone set"}}</p>
                                 <p><i class="fa fa-envelope"></i>{{$company_features? $company_features->companyemail :"No company email set"}}</p>
-                                <p><a href="https://www.facebook.com/{{$company_features? $company_features->companyName :"No company name set"}}-101311525722961/" target="_blank" style=" color:white;"><i class="fab fa-facebook-f"></i> Facebook.com/{{$company_features? $company_features->companyName :"No company name set"}}</a></p>
+                                <p><a href="https://www.facebook.com/{{$company_features? $company_features->companyName :"No company name set"}}-101311525722961/" target="_blank" style=" color:white;"><i class="fab fa-facebook-f"></i> Facebook.com/{{$company_features? $company_features->companyname :"No company name set"}}</a></p>
                                 <p>
-                                <a href="https://www.instagram.com/{{$company_features? $company_features->companyName :"No company name set"}}" target="_blank" style=" color:white;"><i class="fab fa-instagram"></i>@ {{$company_features? $company_features->companyName :"No company name set"}}</a>
+                                <a href="https://www.instagram.com/{{$company_features? $company_features->companyName :"No company name set"}}" target="_blank" style=" color:white;"><i class="fab fa-instagram"></i>@ {{$company_features? $company_features->companyname :"No company name set"}}</a>
                                 </p>
                             <div class="footer-social">
                                <img src="{{asset('img/lock/avg.png')}}" width="30%">
@@ -194,7 +194,7 @@
                             <div class="newsletter">
                                 <h2>Daily News Feed</h2>
                                 <p>
-                                    You are a member or not but you wish to get daily news feed from us <b>{{$company_features? $company_features->companyName :"No company name set"}}</b>. Drop your mail to gain access free
+                                    You are a member or not but you wish to get daily news feed from us <b>{{$company_features? $company_features->companyname :"No company name set"}}</b>. Drop your mail to gain access free
 
                                 </p>
                                 <div class="form">
