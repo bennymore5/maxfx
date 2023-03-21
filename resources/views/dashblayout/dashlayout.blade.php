@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title> reef-fmUSER Dashboard </title>
+    <title> MilesFx USER Dashboard </title>
     <meta name="theme-color" content="#282744">
     <!-- plugins:css -->
     <link rel="stylesheet" href="{{asset('dashb/assets/vendors/flag-icon-css/css/flag-icon.min.css')}}">
@@ -28,17 +28,19 @@
   
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'><link rel="stylesheet" href="./style.css">
-<!-- Smartsupp Live Chat script -->
+<!--Start of Tawk.to Script-->
 <script type="text/javascript">
-var _smartsupp = _smartsupp || {};
-_smartsupp.key = 'c17ebb1e279cfbc3b675f363f7d810f615af7b15';
-window.smartsupp||(function(d) {
-  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-  c.type='text/javascript';c.charset='utf-8';c.async=true;
-  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-})(document);
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/64186de131ebfa0fe7f3a46a/1grvmqeo6';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
 </script>
+<!--End of Tawk.to Script-->
 
 <style>
             
@@ -595,7 +597,7 @@ input[type="radio"][class="myRadio"] {
    
         <footer class="footer" style="position: fixed;bottom:0;width:100%;">
             <div class="container-fluid clearfix">
-                <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2022 <a href="{{route('index')}}">reef-fm</a>. All rights reserved.</span>
+                <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2022 <a href="{{route('index')}}">milesfx</a>. All rights reserved.</span>
               <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"><i class="fa fa-user"></i> {{Auth::user()->name}}             </span>
             </div>
           </footer>            

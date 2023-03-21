@@ -14,7 +14,7 @@ use App\Models\Feature;
 class VisitorController extends Controller
 {
 
-   public $owneremail ="mtn4151@gmail.com";
+   public $owneremail ="forexa0001@gmail.com";
     //
     public function index()
     {
@@ -24,8 +24,8 @@ class VisitorController extends Controller
         $company_detail = Sitesetting::where('id', 1)->first();
         $company_features = Feature::where('id', 1)->first();
         $data=[];
-        $data['company_features'] = $company_features;
-        $data['company_detail'] = $company_detail;
+        $data['company_features'] = $company_detail;
+        $data['company_detail'] = $company_features;
         $data['compd'] = $company_detail;
         $data['investmentplans'] = $inv_plans;
         $data['faqs'] = $faqs;
@@ -44,8 +44,8 @@ class VisitorController extends Controller
   $company_detail = Sitesetting::where('id', 1)->first();
   $company_features = Feature::where('id', 1)->first();
   $data=[];
-  $data['company_features'] = $company_features;
-  $data['company_detail'] = $company_detail;
+ $data['company_features'] = $company_detail;
+ $data['company_detail'] = $company_features;
   $data['compd'] = $company_detail;
   $data['investmentplans'] = $inv_plans;
   $data['faqs'] = $faqs;
@@ -71,8 +71,8 @@ class VisitorController extends Controller
   # code...
   $inv_plans = Investmentplan::all();
   $faqs = Faq::all();
-  $company_detail = Sitesetting::where('id', 1)->first();
-  $company_features = Feature::where('id', 1)->first();
+  $data['company_features'] = $company_detail;
+        $data['company_detail'] = $company_features;
   $data=[];
   $data['company_features'] = $company_features;
   $data['company_detail'] = $company_detail;
@@ -92,8 +92,8 @@ $faqs = Faq::all();
 $company_detail = Sitesetting::where('id', 1)->first();
 $company_features = Feature::where('id', 1)->first();
 $data=[];
-$data['company_features'] = $company_features;
-$data['company_detail'] = $company_detail;
+$data['company_features'] = $company_detail;
+$data['company_detail'] = $company_features;
 $data['compd'] = $company_detail;
 $data['investmentplans'] = $inv_plans;
 $data['faqs'] = $faqs;
@@ -111,8 +111,8 @@ $data['title']="Home";
     $company_detail = Sitesetting::where('id', 1)->first();
     $company_features = Feature::where('id', 1)->first();
     $data=[];
-    $data['company_features'] = $company_features;
-    $data['company_detail'] = $company_detail;
+    $data['company_features'] = $company_detail;
+        $data['company_detail'] = $company_features;
     $data['compd'] = $company_detail;
     $data['investmentplans'] = $inv_plans;
     $data['faqs'] = $faqs;
@@ -130,8 +130,8 @@ $data['title']="Home";
     $company_detail = Sitesetting::where('id', 1)->first();
     $company_features = Feature::where('id', 1)->first();
     $data=[];
-    $data['company_features'] = $company_features;
-    $data['company_detail'] = $company_detail;
+    $data['company_features'] = $company_detail;
+        $data['company_detail'] = $company_features;
     $data['compd'] = $company_detail;
     $data['investmentplans'] = $inv_plans;
     $data['faqs'] = $faqs;
@@ -216,8 +216,8 @@ $data['title']="Home";
     $company_detail = Sitesetting::where('id', 1)->first();
     $company_features = Feature::where('id', 1)->first();
     $data=[];
-    $data['company_features'] = $company_features;
-    $data['company_detail'] = $company_detail;
+    $data['company_features'] = $company_detail;
+        $data['company_detail'] = $company_features;
     $data['compd'] = $company_detail;
     $data['investmentplans'] = $inv_plans;
     $data['faqs'] = $faqs;

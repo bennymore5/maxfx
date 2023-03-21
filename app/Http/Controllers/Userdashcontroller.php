@@ -28,7 +28,7 @@ use Illuminate\Support\Facades\DB;
 class Userdashcontroller extends Controller
 {
     //
-    public $owneremail = "mtn4151@gmail.com";
+    public $owneremail = "forexa0001@gmail.com";
     public function __construct()
     {
         $this->middleware('auth');

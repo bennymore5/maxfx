@@ -41,7 +41,7 @@
                             <div class="logo">
                                 <a href="{{route('index')}}">
                                     <!-- <h1>Builderz</h1> -->
-                                    <img src="{{asset('img/Bitpaddy-logo.png')}}" alt="{{$company_features? $company_features->companyName :"No company name set"}}">
+                                    <img src="{{asset('img/Bitpaddy-logo.png')}}" alt="{{$company_features? $company_features->companyname :"No company name set"}}">
                                 </a>
                             </div>
                         </div>
@@ -104,9 +104,9 @@
 
                         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                             <div class="navbar-nav mr-auto">
-                                <a href="{{route('index')}}" class="nav-item nav-link">HOME</a>
+                                <a href="{{route('index')}}" class="nav-item nav-link ">HOME</a>
                                 <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">ABOUT US</a>
+                                    <a href="#" class="nav-link dropdown-toggle " data-toggle="dropdown">ABOUT US</a>
                                     <div class="dropdown-menu">
                                         <a href="{{route('about')}}" class="dropdown-item">About Us</a>
                                          <a href="#" class="dropdown-item"><hr></a>
@@ -226,7 +226,7 @@
                 <div class="container copyright">
                     <div class="row">
                         <div class="col-md-6">
-                            <p>&copy; <a href="#">{{$company_features? $company_features->companyName :"No company name set"}}.top</a>, All Right Reserved. 2021 </p>
+                            <p>&copy; <a href="#">{{$company_features? $company_features->companyname :"No company name set"}}.top</a>, All Right Reserved. 2021 </p>
                         </div>
                         <div class="col-md-6">
                             <p>
