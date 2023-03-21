@@ -85,7 +85,7 @@ All deposits are instant with the exception of BitCoin where 3 confirmation of y
           <p>No, you are only permitted to own a single account.</p><br />
 
           <b>What If I Can't Log Into My Account Because I Forgot My Password?</b>
-          <p>Click here, <a href="forgot-password.html">forgot-password</a> fill in the form, and you will receive an email regarding your password.</p><br />
+          <p>Click here, <a href="{{route('password.request')}}">forgot-password</a> fill in the form, and you will receive an email regarding your password.</p><br />
 
          
 
@@ -104,7 +104,6 @@ All deposits are instant with the exception of BitCoin where 3 confirmation of y
             <!-- About End -->
 
 
-s
 
 @endsection()
             <!-- Top Bar End -->

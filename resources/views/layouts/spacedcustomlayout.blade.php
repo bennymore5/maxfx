@@ -58,6 +58,8 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div id="ytWidget" style="float: right !important;     position: fixed; z-index: 1000;right: 10px;bottom: 100px;"></div><script src="https://translate.yandex.net/website-widget/v1/widget.js?widgetId=ytWidget&pageLang=en&widgetTheme=light&autoMode=true" type="text/javascript"></script>
+			
                                 <div class="col-4">
                                     <div class="top-bar-item">
                                         <div class="top-bar-icon">
@@ -85,6 +87,8 @@
                     </div>
                 </div>
             </div>
+            <div id="ytWidget" style="float: right !important;     position: fixed; z-index: 1000;right: 10px;bottom: 100px;"></div><script src="https://translate.yandex.net/website-widget/v1/widget.js?widgetId=ytWidget&pageLang=en&widgetTheme=light&autoMode=true" type="text/javascript"></script>
+			
             <!-- Top Bar End -->
 
 
@@ -93,7 +97,7 @@
             <div class="nav-bar" style="background-color: #030f27;">
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                        <a href="#" class="navbar-brand"><img src="{{asset('img/menu.jpg')}}" width="100"></a>
+                        <a href="{{route('login')}}" class="navbar-brand"><h3 style="color:white">LOGIN</h3></a>
                         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -261,6 +265,19 @@
         <script src="{{asset('js/stats.js')}}"></script>
 
 
+        <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/64186de131ebfa0fe7f3a46a/1grvmqeo6';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
      
     </body>
 

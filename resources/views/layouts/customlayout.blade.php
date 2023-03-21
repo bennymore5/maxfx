@@ -40,7 +40,7 @@
 
                     <div class="dt-login__bg-content">
                         <!-- Login Title -->
-                        <h1 class="dt-login__title text-capitalize">Login</h1>
+                        <h1 class="dt-login__title text-capitalize">{{isset($title)? $title:"Password reset"}}</h1>
                         <!-- /login title -->
 
                         <p class="f-16 text-capitalize">Sign in and explore                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          .</p>
@@ -63,30 +63,12 @@
                     <ul style="float: right;background-color: #f4f4f4;padding: 5px;">
                         <li class="dt-nav__item dropdown">
 
-                            <!-- Dropdown Link -->
-                            <a href="#" class="dt-nav__link dropdown-toggle" id="currentLang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img style="width:20px;" class="flag-icon flag-icon-rounded flag-icon-lg mr-1m" src="uploads/gb-eng.png">
-                            <span>EN</span> </a>
-                            <!-- /dropdown link -->
+        
 
-                            <!--google translate -->
-
-                            <div id="google_translate_element"></div>
-
-                            <script type="text/javascript">
-                                function googleTranslateElementInit() {
-                                  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-                                }
-                                </script>
-
-                                <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-                                
-                            <!--google translate -->
-
-
-                            <!-- Dropdown Option -->
                            
-                            <!-- /dropdown option -->
+
+
+                           
 
                         </li>
                     </ul>
@@ -108,7 +90,7 @@
 
       </div>
       <!-- /login container -->
-      <script src="assets/dist/js/login.js"></script><!---->
+<script src="assets/dist/js/login.js"></script><!---->
 <script src="assets/dist/summernote/summernote-bs4.js"></script>
 <script src="assets/dist/js/lang.js"></script>
 <script src="assets/dist/summernote/editor-summernote.js"></script>

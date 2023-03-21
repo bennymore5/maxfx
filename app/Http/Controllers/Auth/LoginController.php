@@ -8,6 +8,7 @@ use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use App\Models\Sitesetting;
 use App\Models\Feature;
 
+
 class LoginController extends Controller
 {
     /*
@@ -26,7 +27,7 @@ class LoginController extends Controller
     public function showLoginForm()
 {
     # code...
-    
+
     
     $company_detail = Sitesetting::where('id', 1)->first();
     $company_features = Feature::where('id', 1)->first();
@@ -34,7 +35,8 @@ class LoginController extends Controller
     $data['company_features'] = $company_features;
     $data['company_detail'] = $company_detail;
     $data['compd'] = $company_detail;
-    $data['title']="Home";
+    $data['title']="Login";
+   
     return view('auth.login', $data);
 }
 

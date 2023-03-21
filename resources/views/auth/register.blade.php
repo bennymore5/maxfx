@@ -3,11 +3,6 @@
 @section('body')
 
 
-
-
-
-
-
                     <!-- Login Content Inner -->
                     <div class="dt-login__content-inner">
                         <div class="col-md-12">
@@ -20,7 +15,7 @@
                             
                             
                             
-                            <div class="col-md-12">
+                            <div class="col-md-6">
                               <!-- Form Group -->
                             <div class="form-group">
                                 <label class="sr-only" for="f-name">Name</label>
@@ -38,6 +33,25 @@
                             </div>
                             <!-- /form group -->
                             </div>
+
+                            <div class="col-md-6">
+                                <!-- Form Group -->
+                              <div class="form-group">
+                                  <label class="sr-only" for="f-name">Phone</label>
+                                  <input id="phone" type="tel"
+                                  class="form-control @error('phone') is-invalid @enderror" name="phone"
+                                  placeholder="Enter Phone Number" value="{{ old('phone') }}" required
+                                  autocomplete="name" autofocus>
+                                      <label class="error" id="phone">
+                                          @error('phone')
+                                                  <span class="invalid-feedback" role="alert">
+                                                      <strong>{{ $message }}</strong>
+                                                  </span>
+                                              @enderror
+                                      </label>
+                              </div>
+                              <!-- /form group -->
+                              </div>
 
                             {{-- <div class="col-md-6">
                               <!-- Form Group -->
@@ -59,11 +73,7 @@
                                 value="{{ old('email') }}" required autocomplete="email" id="email" >
 
                                     <label class="error" id="email">
-                                        @error('email')
-                                                <span class="invalid-feedback" role="alert">
-                                                    <strong>{{ $message }}</strong>
-                                                </span>
-                                            @enderror
+                                        
                                     </label>
                                     @error('email')
                                                 <span class="invalid-feedback" role="alert">
@@ -83,11 +93,7 @@
                                     name="password" required autocomplete="new-password" >
                                     <label class="error" id="password">
 
-                                        @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                                        
 
                                     </label>
                                     @error('password')

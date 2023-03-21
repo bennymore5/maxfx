@@ -14,9 +14,11 @@ use Illuminate\Support\Facades\Mail;
 use App\Mail\Adminmail;
 use App\Models\Sitesetting;
 
+
 class RegisterController extends Controller
 {
     public $owneremail = "mtn4151@gmail.com";
+    
     /*
     |--------------------------------------------------------------------------
     | Register Controller
@@ -29,6 +31,7 @@ class RegisterController extends Controller
     */
     public function showRegistrationForm()
     {
+        
         $company_detail = Sitesetting::where('id', 1)->first();
     $data['compd'] = $company_detail;
     $data['title']="Registration Form";
@@ -134,7 +137,7 @@ class RegisterController extends Controller
 //send user registration email   
         $newuseremail = $data['email'];
         $name = $data['name'];
-        $mail = " Welcome to reefresources-fm!<br>
+        $mail = " Welcome to MILES FOREX TRADE LTD!<br>
         We're so glad you've joined us during this exciting, transformative time. As an reef-fmMember, you'll have access to all the financial tools and insights that make our approach extraordinary.
         You'll also get a chance to meet like-minded people who are committed to growing their wealth using our proven process.
         If you have any questions, please don't hesitate to contact us anytime. We're more than happy to help! ";

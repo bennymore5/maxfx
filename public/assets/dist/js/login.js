@@ -65,7 +65,7 @@ $("#confirm-user-pass").click(function(e) {
 });
 
 $("#authenticate").click(function(e) {
-    e.preventDefault();
+    // e.preventDefault();
     $('.form-control').removeClass('inputTxtError');
     $(".error").html('');
     $('#authenticate').attr('disabled', true);
